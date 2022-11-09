@@ -1,4 +1,5 @@
-Data Sources
+ 
+Data Sources:
 GitHub Repository:
 https://github.com/ejunlee/Project2_Lee_DelValle_Sangha
 Main Dataset:
@@ -16,38 +17,3 @@ Age-standardized death rate from exposure to air pollution – indoor and outdoo
 Supplemental Dataset 4:
 https://gist.github.com/tadast/8827699
 Countries with their (ISO 3166-1) Alpha-2 code, Alpha-3 code, UN M49, average latitude and longitude coordinates
-Main Dataset Structure:
-Country - Country in question
-Energy_type - Type of energy source
-Year - Year the data was recorded
-Energy_consumption - Amount of Consumption for the specific energy source, measured (quad Btu)
-Energy_production - Amount of Production for the specific energy source, measured (quad Btu)
-GDP - Countries GDP at purchasing power parities, measured (Billion 2015$ PPP)
-Population - Population of specific Country, measured (Mperson)
-Energyintensityper_capita - Energy intensity is a measure of the energy inefficiency of an economy. It is calculated as units of energy per unit of capita (capita = individual person), measured (MMBtu/person)
-Energyintensityby_GDP- Energy intensity is a measure of the energy inefficiency of an economy. It is calculated as units of energy per unit of GDP, measured (1000 Btu/2015$ GDP PPP)
-CO2_emission - The amount of C02 emitted, measured (MMtonnes CO2)
-Supplemental Dataset 1 Structure:
-Country – Country in question
-Country_Code – Country code for the country in question
-Year – Year the data was recorded
-CO2_Emissions – CO2 emissions (metric tons per capita)
-Supplemental Dataset 2 Structure:
-Country_Code – Country code of country in question
-Region – Region where country is from
-IncomeGroup – Low/Medium/High classifications of the country
-SpecialNotes – Notes on the country
-TableName – Name of the country
-Supplemental Dataset 3 Structure:
-Entity – Country name of country in question
-Code – Three letter country code defined in ISO 3166-1
-Year – Year the data was recorded
-Deaths - Cause: All causes - Risk: Air pollution - Sex: Both - Age: Age-standardized (Rate) – Death rate per 100K with air pollution as the major cause.
-Supplemental Dataset 4 Structure:
-Country – Country name of country in question
-Alpha-2 code – Two letter country codes defined in ISO 3166-1
-Alpha-3 code – Three letter country codes defined in ISO 3166-1
-Numeric code – Three-digit country codes defined in ISO 3166-1
-Latitude (average) – GPS latitude coordinate of the country
-Longitude (average) – GPS longitude coordinate of the country
-Exploratory Questions and Results
